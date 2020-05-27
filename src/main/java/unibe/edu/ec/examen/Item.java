@@ -28,6 +28,16 @@ public class Item {
 	public void setTax(double tax) {
 		this.tax = tax;
 	}
+	public double getRealDiscount() {
+		double discount = this.discount * this.product.getPrice();
+		return discount;
+	}
+	public double getRealTax(double quantity) {
+		
+	return tax = quantity *	this.tax*this.product.getPrice();
 	
+	
+	
+	}
 	
 }
