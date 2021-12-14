@@ -14,7 +14,7 @@
 		<project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
 		<junit.version>4.11</junit.version>
-		<log4j.version>2.2</log4j.version>
+		<log4j.version>2.16.0</log4j.version>
 		<maven.compiler.version>3.5</maven.compiler.version>
 		<maven.failsafe.version>2.12</maven.failsafe.version>
 	</properties>
